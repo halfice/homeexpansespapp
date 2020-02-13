@@ -1,12 +1,30 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+
+}
+.txtcss {
+  overflow: auto;
+  resize: vertical;
+  border: solid 2px lightblue;
+  border-radius: 11px;
+  background-color: #d3d3d314;
+  margin-bottom: 11px;
+  padding-bottom: 11px;
 }
 
+
+textarea {
+  overflow: auto;
+  resize: vertical;
+  border: solid 2px lightblue;
+  border-radius: 11px;
+  background-color: #d3d3d314;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
