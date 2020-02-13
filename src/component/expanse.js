@@ -8,12 +8,6 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed'
 import Button from 'react-bootstrap/Button'
-import * as spauth from 'node-sp-auth';
-import * as request from 'request-promise';
-
-
-var cors = require('cors')
-const parseJson = require('parse-json');
 class expanse extends Component {
   constructor(props) {
     super(props);
@@ -60,7 +54,7 @@ class expanse extends Component {
   }
   gotoSharEPonit()
   {
-    
+   /* 
     var spauth = require('node-sp-auth');
   var request = require('request-promise');
     //var url="https://azizi021.sharepoint.com/sites/MyPlanner";
@@ -85,6 +79,7 @@ class expanse extends Component {
             }
           });
   });
+  */
 
 }
 
